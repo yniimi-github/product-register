@@ -92,6 +92,6 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  host = 'samplehost'
-  Rails.application.routes.default_url_options[:host] = host
+  # default url
+  config.action_mailer.default_url_options = { host: 'example.com'}
 end
