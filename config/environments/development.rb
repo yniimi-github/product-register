@@ -72,4 +72,7 @@ Rails.application.configure do
     :authentication => :plain,
     :enable_starttls_auto => true
   }
+
+  host = 'samplehost'
+  Rails.application.routes.default_url_options[:host] = host
 end

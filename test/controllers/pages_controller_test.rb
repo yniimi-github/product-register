@@ -2,12 +2,12 @@
 
 # class PagesControllerTest < ActionDispatch::IntegrationTest
 #   test "should get index" do
-#     get pages_index_url
+#     get 'pages#index'
 #     assert_response :success
 #   end
 
 #   test "should get show" do
-#     get pages_show_url
+#     get 'pages#show'
 #     assert_response :success
 #   end
 
